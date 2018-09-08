@@ -1,9 +1,9 @@
 <?php
 
-namespace Chrisbjr\ApiGuard\Providers;
+namespace Compass\ApiGuard\Providers;
 
-use Chrisbjr\ApiGuard\Console\Commands\GenerateApiKey;
-use Chrisbjr\ApiGuard\Http\Middleware\AuthenticateApiKey;
+use Compass\ApiGuard\Console\Commands\GenerateApiKey;
+use Compass\ApiGuard\Http\Middleware\AuthenticateApiKey;
 use Illuminate\Routing\Router;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\ServiceProvider;

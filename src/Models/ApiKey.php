@@ -1,6 +1,6 @@
 <?php
 
-namespace Chrisbjr\ApiGuard\Models;
+namespace Compass\ApiGuard\Models;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
@@ -36,7 +36,7 @@ class ApiKey extends Model
     {
         $apiKey = new ApiKey([
             'key'             => self::generateKey(),
-            'apikeyable_id'   => $apikeyable->id,
+            'apikeyable_id'   => $apikeyable->getKey(),
             'apikeyable_type' => get_class($apikeyable),
             'last_ip_address' => Request::ip(),
             'last_used_at'    => Carbon::now(),
