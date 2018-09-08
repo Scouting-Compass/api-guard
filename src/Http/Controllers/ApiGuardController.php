@@ -6,6 +6,11 @@ use EllipseSynergie\ApiResponse\Laravel\Response;
 use Illuminate\Routing\Controller;
 use League\Fractal\Manager;
 
+/**
+ * Class ApiGuardController 
+ * 
+ * @package Compass\ApiGuard\Http\Controllers
+ */
 class ApiGuardController extends Controller
 {
     /**

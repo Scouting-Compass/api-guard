@@ -5,6 +5,11 @@ namespace Compass\ApiGuard\Console\Commands;
 use Compass\ApiGuard\Models\ApiKey;
 use Illuminate\Console\Command;
 
+/**
+ * Class GenerateApiKey 
+ * 
+ * @package Compass\ApiGuard\Console\Command
+ */
 class GenerateApiKey extends Command
 {
     /**

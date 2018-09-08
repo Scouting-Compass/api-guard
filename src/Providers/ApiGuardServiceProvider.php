@@ -8,6 +8,11 @@ use Illuminate\Routing\Router;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\ServiceProvider;
 
+/**
+ * Class ApiGuardServiceProvider
+ * 
+ * @package Compass\ApiGuard\Providers
+ */
 class ApiGuardServiceProvider extends ServiceProvider
 {
     protected $middlewares = [

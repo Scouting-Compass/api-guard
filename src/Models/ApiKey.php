@@ -7,6 +7,11 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Request;
 
+/**
+ * Class ApiKey 
+ * 
+ * @package Compass\ApiGuard\Models
+ */
 class ApiKey extends Model
 {
     use SoftDeletes;

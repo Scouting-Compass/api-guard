@@ -4,6 +4,11 @@ namespace Compass\ApiGuard\Models\Mixins;
 
 use Compass\ApiGuard\Models\ApiKey;
 
+/**
+ * Trait Apikeyable 
+ * 
+ * @package Compass\ApiGuard\Models\Mixins
+ */
 trait Apikeyable
 {
     public function apiKeys()

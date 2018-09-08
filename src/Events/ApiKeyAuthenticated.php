@@ -5,6 +5,11 @@ namespace Compass\ApiGuard\Events;
 use Compass\ApiGuard\Models\ApiKey;
 use Illuminate\Queue\SerializesModels;
 
+/**
+ * Class ApiKeyAuthenticated 
+ * 
+ * @package Compass\ApiGuard\Events
+ */
 class ApiKeyAuthenticated
 {
     use SerializesModels;

@@ -7,6 +7,11 @@ use Compass\ApiGuard\Events\ApiKeyAuthenticated;
 use Compass\ApiGuard\Models\Device;
 use Closure;
 
+/**
+ * Class AuthenticateApiKey
+ * 
+ * @package Compass\ApiGuard\Http\Middleware
+ */
 class AuthenticateApiKey
 {
     /**
