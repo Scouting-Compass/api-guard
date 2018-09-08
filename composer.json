@@ -1,5 +1,5 @@
 {
-    "name": "chrisbjr/api-guard",
+    "name": "compass/api-guard",
     "description": "A simple way of authenticating your APIs with API keys using Laravel",
     "keywords": [
         "api",
@@ -31,7 +31,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Chrisbjr\\ApiGuard\\": "src"
+            "Compass\\ApiGuard\\": "src"
         }
     },
     "minimum-stability": "stable"
