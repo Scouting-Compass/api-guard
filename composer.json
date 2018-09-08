@@ -31,7 +31,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Compass\\Scouting\\ApiGuard\\": "src"
+            "Compass\\ApiGuard\\": "src"
         }
     },
     "minimum-stability": "stable"
