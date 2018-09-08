@@ -1,5 +1,5 @@
 {
-    "name": "compassBE/api-keys",
+    "name": "compass-scouting/api-keys",
     "description": "A simple way of authenticating your APIs with API keys using Laravel",
     "keywords": [
         "api",
