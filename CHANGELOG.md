@@ -2,6 +2,10 @@
 
 All notable changes to `compass/api-guard` will be documented in this file. 
 
+## 1.1.1 - 2018-09-09
+
+- **Added** Implemented package discovery.
+
 ## 1.1.0 - 2018-09-09
 
 - **Added** class docs to the package.

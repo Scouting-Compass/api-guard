@@ -34,5 +34,12 @@
             "Compass\\ApiGuard\\": "src"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Compass\\ApiGuard\\Providers\\ApiGuardServiceProvider"
+            ]
+        }
+    },
     "minimum-stability": "stable"
 }
