@@ -2,7 +2,7 @@
 
 All notable changes to `compass/api-guard` will be documented in this file. 
 
-## 1.1.0 - 2018-XX-XX
+## 1.1.0 - 2018-09-09
 
 - **Added** class docs to the package.
 - **Added** Name column for given the API keys.
